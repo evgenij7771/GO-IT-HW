@@ -1,3 +1,35 @@
+/* цвет основного текста #757575 */
+
+/* вторичный цвет текста #212121 */
+
+/* основной цвет #E5E5E5 */
+
+/* акцент #2196f3 */
+
+/* вторичный цвет #F5F4FA */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --primary-bgc: #e5e5e5;
+  --secondary-bgc: #2f303a;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: var(--title-text-color);
+}
+
+.hidden-title {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+  margin: -1px;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -11,16 +43,86 @@
   margin: -1px;
 }
 
-body {
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  color: #212121;
+/* шапка сайта */
+.header-logo {
+  color: var(--accent-color);
+  font-family: Raleway;
 }
 
-.hidden-title {
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  opacity: 0;
-  margin: -1px;
+.header-list .header-link {
+  color: var(--title-text-color);
 }
+
+.header-list :hover,
+.header-list :focus {
+  color: var(--accent-color);
+}
+
+.header-list .header-link .current {
+  color: var(--accent-color);
+}
+
+.header-auth,
+.header-link {
+  color: var(--primary-text-color);
+}
+.header-auth :hover,
+.header-auth :focus {
+  color: var(--accent-color);
+}
+
+/* герой */
+
+.hero {
+  text-align: center;
+  color: var(--white-color);
+  background-color: var(--secondary-bgc);
+}
+
+/* преимущества */
+
+/* чем мы занимаемся  */
+
+/* наша команда */
+.team {
+  background-color: #f5f4fa;
+}
+
+/* футер */
+
+.footer-logo {
+  color: var(--accent-color);
+  font-family: Raleway;
+}
+
+.footer {
+  background-color: var(--secondary-bgc);
+}
+
+.footer-list .footer-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: #ffffff;
+}
+
+/* button */
+
+.button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.button.primary {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.button.secondary {
+  color: #f5f4fa;
+  background-color: var(--title-text-color);
+}
+
+/* Портфолио */

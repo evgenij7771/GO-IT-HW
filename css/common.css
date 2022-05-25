@@ -1,0 +1,59 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --primary-bgc: #e5e5e5;
+  --secondary-bgc: #2f303a;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: var(--title-text-color);
+}
+
+/* шапка сайта */
+.header-logo {
+  color: var(--accent-color);
+  font-family: Raleway;
+}
+
+.header-list .header-link {
+  color: var(--title-text-color);
+}
+
+.header-list :hover,
+.header-list :focus {
+  color: var(--accent-color);
+}
+
+.header-list .header-link .current {
+  color: var(--accent-color);
+}
+
+.header-auth,
+.header-link {
+  color: var(--primary-text-color);
+}
+.header-auth :hover,
+.header-auth :focus {
+  color: var(--accent-color);
+}
+
+/* футер */
+
+.footer-logo {
+  color: var(--accent-color);
+  font-family: Raleway;
+}
+
+.footer {
+  background-color: var(--secondary-bgc);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: #ffffff;
+}
