@@ -46,10 +46,22 @@ body {
 /* шапка сайта */
 .header-logo {
   color: var(--accent-color);
-  font-family: Raleway;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .header-list .header-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
   color: var(--title-text-color);
 }
 
@@ -64,8 +76,15 @@ body {
 
 .header-auth,
 .header-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
   color: var(--primary-text-color);
 }
+
 .header-auth :hover,
 .header-auth :focus {
   color: var(--accent-color);
@@ -74,29 +93,98 @@ body {
 /* герой */
 
 .hero {
-  text-align: center;
   color: var(--white-color);
   background-color: var(--secondary-bgc);
 }
 
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
 /* преимущества */
+
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
 
 /* чем мы занимаемся  */
 
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 /* наша команда */
+
 .team {
   background-color: #f5f4fa;
 }
 
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+
+  color: var(--primary-text-color);
+}
 /* футер */
 
 .footer-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+
   color: var(--accent-color);
-  font-family: Raleway;
 }
 
 .footer {
   background-color: var(--secondary-bgc);
+  text-align: left;
+}
+
+.footer-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .footer-list .footer-link {
@@ -126,3 +214,23 @@ body {
 }
 
 /* Портфолио */
+
+.ul {
+  list-style: none;
+}
+
+.portfolio {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
