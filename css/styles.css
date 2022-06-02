@@ -22,6 +22,12 @@ body {
   color: var(--title-text-color);
 }
 
+.conteiner {
+  width: 1200;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .hidden-title {
   width: 1px;
   height: 1px;
@@ -95,13 +101,15 @@ body {
 .hero {
   color: var(--white-color);
   background-color: var(--secondary-bgc);
+
+  text-align: center;
 }
 
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  text-align: center;
+
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -109,6 +117,8 @@ body {
 /* преимущества */
 
 .features-title {
+  width: 270px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -117,6 +127,8 @@ body {
 }
 
 .features-text {
+  width: 270px;
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
@@ -201,6 +213,8 @@ body {
 .button {
   color: var(--white-color);
   background-color: var(--accent-color);
+
+  cursor: pointer;
 }
 
 .button.primary {
