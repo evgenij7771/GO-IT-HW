@@ -26,8 +26,6 @@ body {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-
-  outline: 1px solid tomato;
 }
 
 .hidden-title {
@@ -49,6 +47,10 @@ body {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+
+.list {
+  list-style: none;
 }
 
 /* шапка сайта */
@@ -89,7 +91,6 @@ body {
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  list-style: none;
 
   color: var(--primary-text-color);
 }
@@ -120,12 +121,10 @@ body {
 }
 
 /* преимущества */
-.features {
-  outline: 1px solid blue;
-}
 
 .features-title {
   width: 270px;
+  margin-bottom: 10px;
 
   font-weight: 700;
   font-size: 14px;
@@ -134,12 +133,9 @@ body {
   text-transform: uppercase;
 }
 
-.features-list {
-  list-style: none;
-}
-
 .features-text {
   width: 270px;
+  margin-bottom: 94px;
 
   font-weight: 400;
   font-size: 14px;
@@ -157,10 +153,12 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
+
+  margin-bottom: 50px;
 }
 
-.work-list {
-  list-style: none;
+.work-item {
+  margin-bottom: 188px;
 }
 
 /* наша команда */
@@ -175,10 +173,6 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-}
-
-.team-list {
-  list-style: none;
 }
 
 .team-name {
@@ -204,6 +198,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
 
+  margin-bottom: 20px;
+
   color: var(--accent-color);
 }
 
@@ -223,7 +219,6 @@ body {
   color: rgba(255, 255, 255, 0.6);
 
   font-style: normal;
-  list-style: none;
 }
 
 .footer-link:hover,
@@ -257,10 +252,6 @@ body {
 }
 
 /* Портфолио */
-
-.ul {
-  list-style: none;
-}
 
 .portfolio {
   font-weight: 700;
