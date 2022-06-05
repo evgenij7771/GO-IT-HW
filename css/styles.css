@@ -24,8 +24,12 @@ body {
 
 .conteiner {
   width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+
+  outline: 1px solid tomato;
 }
 
 .hidden-title {
@@ -54,6 +58,11 @@ body {
 }
 
 /* шапка сайта */
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
 .header-logo {
   color: var(--accent-color);
 
@@ -65,8 +74,16 @@ body {
   letter-spacing: 0.03em;
 }
 
+.header-list {
+  display: flex;
+  margin-left: 93px;
+}
+
+.header-list .item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .header-list .header-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
@@ -82,6 +99,15 @@ body {
 
 .header-list .header-link .current {
   color: var(--accent-color);
+}
+
+.header-auth {
+  display: flex;
+  margin-left: auto;
+}
+
+.header-auth .item + .item {
+  margin-left: 50px;
 }
 
 .header-auth,
@@ -131,6 +157,10 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.features-list {
+  display: flex;
 }
 
 .features-text {
